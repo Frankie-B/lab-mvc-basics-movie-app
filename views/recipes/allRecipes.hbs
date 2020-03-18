@@ -1,0 +1,7 @@
+{{#each recipesHbs}}
+    <h1>{{title}}</h1>
+    <h3 class="recipe-subheading">{{cuisine}}</h3>
+    <img src="{{image}}" alt="" class="recipe-img">
+    <a href="/recipes/recipe/{{_id}}"><button class="recipe-btn">go to detail page</button></a>
+    <a href="/recipes/delete/{{_id}}"><button class="recipe-btn">Delete Recipe</button></a>
+{{/each}}
