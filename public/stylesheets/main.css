@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.debug {
+  border: 1px solid red;
+}
+
+.main-container {
+  height: 100vh;
+  text-align: center;
+}
+
+.main-bold {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a.main-link.btn.btn-primary.btn-lg {
+  background: #e2b616;
+  border: 1px solid rgb(0, 0, 0, 0.5);
+}

@@ -1,0 +1,36 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  width: 40%;
+}
+
+.login-heading {
+  margin-bottom: 2rem;
+}
+
+.login-input {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.login-btn {
+  height: 50px;
+  margin-bottom: 2rem;
+}
+
+.login-btn.btn-block {
+  background: #e2b616;
+  font-weight: bold;
+}
+
+.login-bold-cta a {
+  color: rgb(0, 0, 0, 0.5);
+}
+
+.login-bold-cta a:hover {
+  color: #e2b616;
+  text-decoration: underline;
+}

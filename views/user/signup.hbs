@@ -1,0 +1,11 @@
+{{!-- views/auth/signup.hbs --}}
+<div id="form" class="signup-container container-fluid d-flex justify-content-center align-items-center">
+   <form  class="signup-form form-inline my-2 my-lg-0" enctype="multipart/form-data" action="/user/signup" method="POST">
+      <label for="username">username: </label><br>
+      <input class="signup-input form-control mr-sm-2" type="text" required name="username" placeholder="Please enter your username"/>
+      <label for="password" required>Password: </label><br>
+      <input class="signup-input form-control mr-sm-2" name='password' type="password" placeholder="********" aria-label="Search">
+      <input class="signup-avatar" type="file" name="avatar" />
+      <button class="signup-btn btn btn-outline-success my-2 my-sm-0 search-btn" type="submit">Create account</button>
+   </form>
+</div>
